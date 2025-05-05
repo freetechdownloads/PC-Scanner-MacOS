@@ -15,7 +15,7 @@ PC Scanner is actively maintained for the macOS version available in this reposi
 
 If you discover a vulnerability in PC Scanner, please help us protect users by **responsibly disclosing** it.
 
-- **Preferred Method**: Open a **private GitHub security advisory** [here](https://github.com/freetechdownloads/pcscanner/security/advisories)
+- **Preferred Method**: Open a **private GitHub security advisory** [here]([https://github.com/freetechdownloads/pcscanner/security/advisories](https://github.com/freetechdownloads/PC-Scanner-MacOS/security/advisories))
 - Alternatively, email us at: **freetechdownloads@protonmail.com**
 
 Please include:
