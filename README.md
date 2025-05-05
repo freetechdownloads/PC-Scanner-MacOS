@@ -1,26 +1,44 @@
-# PCScanner (macOS Version)
+# PC Scanner (macOS Version)
 
-**PCScanner** is a lightweight system information tool for **macOS** that collects and displays detailed hardware and software diagnostics. It’s perfect for IT professionals, tech enthusiasts, and anyone who wants a quick overview of their Mac's system status.
-
-> 🔧 This is the **macOS** version of the original [PCScanner for Windows](https://github.com/freetechdownloads/pcscanner).
-
----
-
-## 🚀 Features
-
-- 🧠 Detects CPU information (model, cores, architecture)
-- 💾 Lists disk usage and storage volumes
-- 🧬 Gathers memory stats (total, used, free)
-- 📶 Displays network interfaces and IP addresses
-- 🖥️ Shows macOS version and system identity
-- 📁 Exports output to console or text file
+**PC Scanner** is an open-source tool that scans your Mac for executable and script files commonly associated with Windows **and** macOS systems.  
+It helps you quickly locate files like `.exe`, `.cmd`, `.vbs`, `.app`, `.pkg`, `.sh`, and `.plist` across your file system.
 
 ---
 
-## 📦 Installation
+## 🔍 What It Searches For
 
-### 1. Clone the Repository
+PC Scanner looks for potentially executable or script-related files, including:
 
-```bash
-git clone https://github.com/freetechdownloads/pcscanner
-cd pcscanner/mac
+- **Windows-related**:
+  - `.exe` — Windows executables
+  - `.cmd` — Command scripts
+  - `.vbs` — VBScript files
+
+- **macOS & Unix-related**:
+  - `.app` — macOS applications
+  - `.pkg` — Installer packages
+  - `.sh` — Shell scripts
+  - `.plist` — macOS property list files (often tied to launch agents or startup items)
+
+---
+
+## 🎯 Use Cases
+
+- 📁 Find scripts or installers scattered across external drives
+- 🧹 Clean up old software installers or temporary apps
+- 🔍 Audit potentially dangerous scripts
+- 💻 Discover leftover Windows files on shared or migrated systems
+
+---
+
+## 📄 Example Output
+
+```text
+Found 12 matching files:
+
+/Users/you/Downloads/setup.exe  
+/Applications/ExampleApp.app  
+/Volumes/Backup/install.pkg  
+~/Library/LaunchAgents/com.example.agent.plist  
+~/Documents/cleanup.sh  
+...
