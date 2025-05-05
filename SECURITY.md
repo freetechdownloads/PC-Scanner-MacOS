@@ -6,8 +6,8 @@ PC Scanner is actively maintained for the macOS version available in this reposi
 
 | Version | Supported |
 |---------|-----------|
-| Latest  | ✅        |
-| Older   | ❌        |
+| v1.0    | ✅        |
+
 
 ---
 
